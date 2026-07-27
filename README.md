@@ -1,18 +1,14 @@
 # SleepPoseRecognition: A FMCW mmWave Radar Dataset
 
-Welcome to the official repository for the dataset associated with our submitted manuscript: **"A Novel Non-contact Sleep Posture Recognition Method Based on FMCW Millimeter-wave Radar."**
-
-This repository provides access to our high-fidelity, non-contact sleep posture dataset collected using Frequency-Modulated Continuous Wave (FMCW) millimeter-wave radar——TI IWR1843Boost. The dataset is designed to address the static posture classification bottlenecks and cross-domain recognition challenges (e.g., severe geometric ambiguity between Supine and Prone positions) in clinical and home sleep monitoring.
+Welcome to the official repository for the dataset.This repository provides access to our high-fidelity, non-contact sleep posture dataset collected using Frequency-Modulated Continuous Wave (FMCW) millimeter-wave radar——TI IWR1843Boost. 
 
 ## 📊 Dataset Overview
 
 *   **Sensing Modality:** FMCW mmWave Radar
 *   **Data Format:** Raw `.bin` files
-*   **Participants:** 10 diverse volunteers (7 males, 3 females)
+*   **Participants:** 10 diverse volunteers
 *   **Total Samples:** 21,610 valid data samples
 *   **Target Classes (6 Sleep Postures):** Supine, Prone, Left Log, Right Log, Left Fetus, Right Fetus.
-
-Our method extracts Respiration-Augmented Point Clouds (RAPC) from this raw data to generate clutter-suppressed 4D attributes, which are then processed by our proposed SleepPoseFusionFormer (SPFF) network.
 
 ## 📂 Data Access & Download
 
@@ -24,14 +20,11 @@ Approximately **70% of the core raw dataset** has been uploaded to Google Drive 
 🔗 **[Click Here to Access the Partial Dataset on Google Drive](https://drive.google.com/drive/folders/1y3KAk2fv_ieI_pQ91FQnyz-uyq1ItMK8?usp=sharing)**
 
 ### 2. Full Dataset (Upon Request)
-If you require the **100% complete dataset** for large-scale training, reproduction of the SPFF network, or cross-domain validation, we are more than happy to share it with you directly. 
+If you require the **100% complete dataset** for large-scale training, or cross-domain validation, we are more than happy to share it with you directly. 
 
 Please contact the corresponding author via email to request the full dataset transfer:
 📧 **Email:** kylin20022024@163.com
 *(Please briefly introduce your institution and research purpose in the email so we can arrange the data transfer efficiently).*
-
-## 💻 Code Availability
-The MATLAB processing scripts for the RAPC algorithm and the Python (PyTorch) implementation of the SPFF network are currently under peer review. The complete source code will be made public in this repository immediately upon the manuscript's formal acceptance.
 
 ## 📝 Citation
 If you find this dataset or our methodology helpful in your research, please consider citing our paper once it is published. *(Citation details will be updated upon acceptance).*
